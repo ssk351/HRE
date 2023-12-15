@@ -1,5 +1,12 @@
 #############################################
 ## To show the Spatial rainfall percentiles
+## Computing the percentile value
+## Assume the 1-D array data
+## Nearest-rank method
+### n = [(p/100)*N]
+## list - no of samples
+## n index value
+## P - req pecentile value
 #############################################
 import xarray as xr
 import pandas as pd
